@@ -1,0 +1,45 @@
+.coupon {
+  display: block;
+  border: 2px solid black;
+  margin: 1rem;
+  background-color: #db8421ca;
+  color: rgb(0, 0, 0);
+  border-radius: 7px;
+  width: 20rem;
+  height: max-content;
+  max-height: 28rem;
+  justify-content: center;
+}
+
+.coupon img {
+  height: 128px;
+  width: 128px;
+  border-radius: 7px;
+}
+
+.coupon-card {
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 2rem;
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 12px;
+  background-color: #4e4c49;
+  color: rgb(0, 0, 0);
+  border-radius: 7px;
+  height: max-content;
+  width: max-content;
+}
+
+.coupon-card .action-button {
+  display: grid;
+  justify-content: center;
+  width: 7rem;
+  height: 3rem;
+  margin: 10px;
+}
+
+.coupon-card .actions-div {
+  display:inline-flex;
+  justify-content: center;
+}

@@ -1,0 +1,64 @@
+.new-coupon__controls {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 23rem;
+  /* padding: 0 1.5em 0 1.5em; */
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0);
+  margin: auto;
+  width: 100%;
+}
+
+.new-coupon__control label {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.new-coupon__control input,
+.get-coupons input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+
+.get-coupons input {
+  width: 100%;
+}
+
+.new-coupon__control input {
+  width: 85%;
+}
+
+.new-coupon__control .select {
+  margin-left: 5%;
+  text-align: center;
+  width: 90%;
+}
+
+.new-coupon__actions {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.new-coupon__actions button {
+  margin-top: 1rem;
+  margin-right: 0.7rem;
+}
+
+.new-coupon__actions button:disabled {
+  cursor: not-allowed;
+  background-color: #383738;
+  border-color: #383738;
+  color:white;
+}
+
+.new-coupon__actions button:hover:disabled {
+  background-color: #575658;
+  border-color: #575658;
+} 

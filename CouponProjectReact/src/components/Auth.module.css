@@ -1,0 +1,38 @@
+.auth {
+  margin: 5rem auto;
+  box-shadow: 0 10px 10px rgba(158, 153, 154, 0.2);
+  width: 25rem;
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+}
+
+.control {
+  margin-bottom: 1rem;
+}
+
+.control label {
+  display: block;
+  color: #616161;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.control input{
+  display: block;
+  width: 15rem;
+  margin: auto;
+  border-radius: 4px;
+  padding: 0.40rem;
+  border: 1px solid #ccc;
+}
+
+.control #select{
+  display: block;
+  width: 20rem;
+  margin: auto;
+  border-radius: 4px;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+}

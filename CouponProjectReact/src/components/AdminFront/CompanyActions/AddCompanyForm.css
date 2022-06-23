@@ -1,0 +1,53 @@
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0);
+}
+
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 19rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.new-expense__actions {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.new-expense__actions button {
+margin-left: .5rem;
+}
+
+.new-expense__actions button:hover,
+.new-expense__actions button:active {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+}
+
+.new-expense__actions button:disabled {
+  cursor: not-allowed;
+  background-color: #383738;
+  border-color: #383738;
+  color: white;
+}
+
+.new-expense__actions button:hover:disabled {
+  background-color: #575658;
+  border-color: #575658;
+} 

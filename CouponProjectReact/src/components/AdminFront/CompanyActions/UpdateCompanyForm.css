@@ -1,0 +1,77 @@
+.update-inputs {
+  display: inline-grid;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.update-inputs label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: center;
+}
+
+.select {
+  text-align: center;
+}
+
+.update-inputs input {
+  text-align: center;
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 95%;
+  max-width: 20rem;
+}
+
+.update-inputs input:disabled {
+  color: rgb(206, 200, 200);
+  background-color: rgba(39, 56, 53, 0.76);
+}
+
+.update-actions {
+  text-align: right;
+  display:inline-flex;
+  justify-content: center;
+  margin-top: 12%;
+  margin-right: 7%;
+}
+
+.update-actions button {
+  display: grid;
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  margin-right: 1rem;
+  transition-duration: 0.4s;
+  width: 7rem;
+  height: 3rem;
+  margin: 10px;
+}
+
+.update-actions button:hover,
+.update-actions button:active {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+}
+
+.update-actions button:disabled {
+  cursor: not-allowed;
+  background-color: #383738;
+  border-color: #383738;
+  color: white;
+}
+
+.update-actions button:hover:disabled {
+  background-color: #575658;
+  border-color: #575658;
+} 
